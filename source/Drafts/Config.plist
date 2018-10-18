@@ -6,19 +6,37 @@
 	<array>
 		<dict>
 			<key>Image File</key>
-			<string>stickies.png</string>
+			<string>drafts5-icon.bw.png</string>
 			<key>Service Name</key>
-			<string>Make Sticky</string>
+			<string>Send to Drafts</string>
 			<key>Title</key>
-			<string>Make Sticky</string>
+			<string>Send to Drafts</string>
 		</dict>
 	</array>
+
+<!-- Check that Drafts is installed -->
+
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.agiletortoise.Drafts-OSX</string>
+			<key>Check Installed</key>
+			<true/>
+			<key>Link</key>
+			<string>https://getdrafts.com/</string>
+			<key>Name</key>
+			<string>Drafts</string>
+		</dict>
+	</array>
+
+
 	<key>Extension Description</key>
-	<string>Make a new Stickies note with the selected text.</string>
+	<string>Make a new draft in Drafts for Mac with the selected text.</string>
 	<key>Extension Identifier</key>
-	<string>com.pilotmoon.popclip.extension.make-sticky</string>
+	<string>com.jjarava.popclip.extension.drafts-mac</string>
 	<key>Extension Name</key>
-	<string>Stickies</string>
+	<string>Drafts</string>
 	<key>Required OS Version</key>
 	<string>10.7</string>
 	<key>Version</key>
